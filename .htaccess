@@ -1,0 +1,10 @@
+# Rewrite engine
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# 404
+
+ErrorDocument 404 https://stshrewsbury.dev/404

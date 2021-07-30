@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #180022, #000c31);
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+a:not(.nav-link){
+  color: #D790FF;
+  font-weight: 600;
+}
+
+a:not(.nav-link):hover{
+  text-decoration: none;
+  color: #ECCAFF;
+}
+
+.rounded_img{border-radius: 100%;}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  min-height: 60px;
+  width: 100%;
+}
+
+/* Navbar */
+.navbar, .navbar #title{font-size: 22px;}
+
+.navbar .dropdown-menu{background-color: rgba(25, 25, 25, .9);}
+
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus{background-color: rgba(60, 60, 60, 5);}
+
+.navbar .dropdown-header{
+  color: #D0D0D0;
+  font-weight: 600;
+}
+
+.navbar .dropdown-divider{
+  border-top: 2px solid rgba(200, 200, 200, .25);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 991px{.navbar, .navbar #title{font-size: inherit;}})

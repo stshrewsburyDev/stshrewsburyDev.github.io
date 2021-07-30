@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The home of the stshrewsbury.dev website!">
+    <meta name="author" content="Steven Shrewsbury">
+    <meta name="keywords" content="stshrewsburyDev, stshrewsbury.dev, Steven Shrewsbury">
+
+    <!-- OG metatags -->
+    <meta name="og:title" content="Home | stshrewsbury.dev">
+    <meta name="og:description" content="Just enjoying life one step at a time!
+    Programmer and professional dumbass.
+
+    The home of the stshrewsbury.dev website!">
+    <meta name="og:url" content="https://stshrewsbury.dev/">
+    <meta name="og:locale" content="en_GB">
+    <meta name="og:type" content="website">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Home | stshrewsbury.dev">
+    <meta name="twitter:description" content="Just enjoying life one step at a time!
+    Programmer and professional dumbass.
+
+    The home of the stshrewsbury.dev website!">
+    <meta name="twitter:url" content="https://stshrewsbury.dev/">
+
+    <!-- Other -->
+    <title>Home | stshrewsbury.dev</title>
+    <link rel="icon" href="./images/icon/icon_32px.png"  sizes="32x32">
+    <link rel="icon" href="./images/icon/icon_48px.png"  sizes="48x48">
+    <link rel="icon" href="./images/icon/icon_96px.png"  sizes="96x96">
+    <link rel="icon" href="./images/icon/icon_144px.png" sizes="144x144">
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font / Font awesome -->
+    <script src="https://kit.fontawesome.com/b2dcc08636.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap">
+  </head>
+  <body class="d-flex flex-column h-100">
+    <!-- Load rest of requirements -->
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Navigation -->
+    <div class="container" id="main-nav-placeholder"></div>
+    <script type="text/javascript">
+      $(function(){$("#main-nav-placeholder").load("https://stshrewsbury.dev/navigation.html");});
+    </script>
+
+    <!-- Main content -->
+    <div class="container text-center text-light">
+      <picture>
+        <source src="./images/misc/avatar.webp" type="image/webp">
+        <source src="./images/misc/avatar.jpg" type="image/jpeg">
+        <img class="img-fluid rounded_img" src="./images/misc/avatar.jpg" style="width: 320px; margin-top: 100px;">
+      </picture>
+      <h1 class="display-4" style="font-weight: 600;">Steven Shrewsbury</h1>
+      <h2 class="h2">Programmer and professional dumbass.</h2>
+    </div>
+
+    <!-- About me -->
+    <div class="container text-center text-light">
+      <h3 class="h3" style="font-weight: 600; margin-top: 50px;">About me:</h3>
+      <p style="font-size: 18px; margin-bottom: 0;">
+        Hi, I'm Steven (or as some know me by "stshrewsburyDev" or just "Steve").<br>
+        I am an ex-college student who programs and creates random projects in my spare time using the Python programming language.<br><br>
+        I originally created this website to host projects I worked on at the time but have since repurposed the stshrewsbury.dev
+        domain to be a form of portfolio website. This way I can not only still host but also showcase some of my work.<br><br>
+        <span style="text-decoration: underline; font-weight: 600;">Some quick random facts about myself:</span>
+        <ul class="fa-ul text-left">
+          <li><i class="fas fa-angle-double-right"></i> I love the colour purple!</li>
+          <li><i class="fas fa-angle-double-right"></i> My favourite animals are cats and owls 🦉🐈💜.</li>
+          <li><i class="fas fa-angle-double-right"></i> I am from the United Kingdom.</li>
+          <li><i class="fas fa-angle-double-right"></i> Besides programming I like to listen to music and the sounds of nature.</li>
+        </ul>
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <div class="container text-center text-light">
+        <span>Made with <i class="far fa-heart" style="color: rgb(220, 100, 100);"></i> by Steven Shrewsbury (stshrewsburyDev)</span>
+      </div>
+    </footer>
+  </body>
+</html>
